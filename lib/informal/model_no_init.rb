@@ -40,5 +40,9 @@ module Informal
     def to_param
       nil
     end
+
+    def to_partial_path
+      ''
+    end
   end
 end
